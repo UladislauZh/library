@@ -14,94 +14,260 @@
   </head>
   <body>
     <header>
-      <h3>Brooklyn Public Library</h3>
-      <div class="header-menu">
-        <p>About</p>
-        <p>Favorites</p>
-        <p>Coffee shop</p>
-        <p>Contacts</p>
-        <p>Library Card</p>
+      <div class="header">
+        <h3 class="header-text">Brooklyn Public Library</h3>
+        <div class="header-menu">
+          <a class="menu" href="#">About</a>
+          <a class="menu" href="#">Favorites</a>
+          <a class="menu" href="#">Coffee shop</a>
+          <a class="menu" href="#">Contacts</a>
+          <a class="menu" href="#">Library Card</a>
+        </div>
+        <img class="icon" src="img/icon_profile.svg" alt="icon_profile" />
+        <!-- <img class="img" src="img/Welcome.jpg" alt="Welcome" />-->
       </div>
-      <img class="icon" src="img/icon_profile.svg" alt="icon_profile" />
-      <!-- <img class="img" src="img/Welcome.jpg" alt="Welcome" /> -->
     </header>
     <main>
-      <div class="welcome">
-        <h1>Welcome to the Brooklyn Library</h1>
-      </div>
-      <div class="about">
-        <h2>About</h2>
-        <p>
-          The Brooklyn Library is a free workspace, a large number of books and
-          a cozy coffee shop inside
-        </p>
-        <div class="images">
-          <img src="img/image1.jpg" alt="image1" />
-          <img src="img/image2.png" alt="image2" />
-          <img src="img/image3.png" alt="image3" />
-        </div>
-        <img class="carousel" src="img/Carousel _pagination.jpg" alt="" />
-        <!-- Точки для слайдера делаются в js -->
-      </div>
-      <div class="favorites">
-        <h2>Favorites</h2>
-        <p>Pick favorites of season</p>
-        <div class="seasons">
-          <label for="#"><input type="radio" />Winter</label>
-          <label for="#"><input type="radio" />Spring</label>
-          <label for="#"><input type="radio" />Summer</label>
-          <label for="#"><input type="radio" />Autumn</label>
+      <div class="main-1">
+        <div class="welcome">
+          <h1 class="h1">Welcome to the Brooklyn Library</h1>
         </div>
       </div>
-      <div class="books">
-        <div class="book">
-            <h4>Staff Picks</h4>
-            <h5>The Book Eaters By Sunyi Dean</h5>
-            <p>
-              An unusual sci-fi story about a book eater woman who tries
-              desperately to save her dangerous mind-eater son from tradition
-              and certain death. Complete with dysfunctional family values,
-              light Sapphic romance, and a strong, complex protagonist. Not for
-              the faint of heart.
-            </p>
-            <button>Buy</button>
-            <img src="img/book1.jpg" alt="" />
+      <div class="main-2">
+        <div class="about">
+          <h2 class="table-of">About</h2>
+          <hr />
+          <p class="table-text">
+            The Brooklyn Library is a free workspace, a large number of books
+            and a cozy coffee shop inside
+          </p>
+          <div class="images">
+            <img class="about-img" src="img/image1.jpg" alt="image1" />
+            <img class="about-img" src="img/image2.png" alt="image2" />
+            <img class="about-img" src="img/image3.png" alt="image3" />
           </div>
-          <div class="book">
-            <h4>Staff Picks</h4>
-            <h5>Cackle By Rachel Harrison</h5>
-            <p>
-              Are your Halloween movies of choice The Witches of Eastwick and
-              Practical Magic? Look no further than here - where a woman
-              recovering from a breakup moves to a quaint town in upstate New
-              York and befriends a beautiful witch.
-            </p>
-            <button>Buy</button>
-            <img src="img/book2.jpg" alt="" />
+          <img class="carousel" src="img/Carousel _pagination.jpg" alt="" />
+          <!-- Точки для слайдера делаются в js -->
+        </div>
+      </div>
+      <div class="main-3">
+        <div class="favorites">
+          <h2 class="table-of">Favorites</h2>
+          <hr />
+          <p class="text-favourites">Pick favorites of season</p>
+          <div class="seasons">
+            <label for="#"><input type="radio" />Winter</label>
+            <label for="#"><input type="radio" />Spring</label>
+            <label for="#"><input type="radio" />Summer</label>
+            <label for="#"><input type="radio" />Autumn</label>
           </div>
-          <div class="book">
-            <h4>Staff Picks</h4>
-            <h5>Dante: Poet of the Secular World By Erich Auerbach</h5>
-            <p>
-              Auerbach's engaging book places the 'Comedy' within the tradition
-              of epic, tragedy, and philosophy in general, arguing for Dante's
-              uniqueness as one who raised the individual and his drama of soul
-              into something of divine significance—an inspired introduction to
-              Dante's main themes.
-            </p>
-            <button>Buy</button>
-            <img src="img/book3.jpg" alt="" />
+          <div class="books">
+            <div class="book">
+              <h4 class="book-table">Staff Picks</h4>
+              <h5 class="book-table2">The Book Eaters By Sunyi Dean</h5>
+              <p class="content">
+                An unusual sci-fi story about a book eater woman who tries
+                desperately to save her dangerous mind-eater son from tradition
+                and certain death. Complete with dysfunctional family values,
+                light Sapphic romance, and a strong, complex protagonist. Not
+                for the faint of heart.
+              </p>
+              <button class="buy">Buy</button>
+              <img class="book-img" src="img/book1.jpg" alt="" />
+            </div>
+            <div class="book">
+              <h4 class="book-table">Staff Picks</h4>
+              <h5 class="book-table2">Cackle By Rachel Harrison</h5>
+              <p class="content">
+                Are your Halloween movies of choice The Witches of Eastwick and
+                Practical Magic? Look no further than here - where a woman
+                recovering from a breakup moves to a quaint town in upstate New
+                York and befriends a beautiful witch.
+              </p>
+              <button class="buy">Buy</button>
+              <img class="book-img" src="img/book2.jpg" alt="" />
+            </div>
+            <div class="book">
+              <h4 class="book-table">Staff Picks</h4>
+              <h5 class="book-table2">
+                Dante: Poet of the Secular World By Erich Auerbach
+              </h5>
+              <p class="content">
+                Auerbach's engaging book places the 'Comedy' within the
+                tradition of epic, tragedy, and philosophy in general, arguing
+                for Dante's uniqueness as one who raised the individual and his
+                drama of soul into something of divine significance—an inspired
+                introduction to Dante's main themes.
+              </p>
+              <button class="buy">Buy</button>
+              <img class="book-img" src="img/book3.jpg" alt="" />
+            </div>
+            <div class="book">
+              <h4 class="book-table">Staff Picks</h4>
+              <h5 class="book-table2">The Last Queen By Clive Irving</h5>
+              <p class="content">
+                A timely and revelatory new biography of Queen Elizabeth (and
+                her family) exploring how the Windsors have evolved and thrived
+                as the modern world has changed around them.
+              </p>
+              <button class="buy">Buy</button>
+              <img class="book-img" src="img/book4.jpg" alt="" />
+            </div>
           </div>
-          <div class="book">
-            <h4>Staff Picks</h4>
-            <h5>The Last Queen By Clive Irving</h5>
-            <p>
-              A timely and revelatory new biography of Queen Elizabeth (and her
-              family) exploring how the Windsors have evolved and thrived as the
-              modern world has changed around them.
-            </p>
-            <button>Buy</button>
-            <img src="img/book4.jpg" alt="" />
+        </div>
+      </div>
+      <div class="main-4">
+        <div class="coffe-shop">
+          <h2 class="table-of">Coffee shop</h2>
+          <hr />
+          <p class="menu-text">
+            In our library, we have of cozy coffee shop, welcoming in customers
+            with frothy cappuccinos and friendly conversation. you can get a
+            favorite book and read in coffee shop. Our barista to cook you best
+            coffee, and also you can try desserts from bakery.
+          </p>
+          <div class="menu-coffe">
+            <div class="menu-table1">
+              <h2 class="menu-name1">Coffee & Tea</h2>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Cold Brew Coffee</td>
+                    <td><hr class="line-table" /></td>
+                    <td>$3</td>
+                  </tr>
+                  <tr>
+                    <td>French Press Pot</td>
+                    <td><hr class="line-table" /></td>
+                    <td>$5</td>
+                  </tr>
+                  <tr>
+                    <td>Espresso</td>
+                    <td><hr class="line-table" /></td>
+                    <td>$2</td>
+                  </tr>
+                  <tr>
+                    <td>Cappuccino</td>
+                    <td><hr class="line-table" /></td>
+                    <td>$4</td>
+                  </tr>
+                  <tr>
+                    <td>Hot tea</td>
+                    <td><hr class="line-table" /></td>
+                    <td>$2</td>
+                  </tr>
+                  <tr>
+                    <td>Cold tea</td>
+                    <td><hr class="line-table" /></td>
+                    <td>$2</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="menu-table2">
+              <h2 class="menu-name2">Desserts & Cakes</h2>
+              <table>
+                <tbody>
+                  <tr>
+                    <td>Forest Gateau</td>
+                    <td><hr class="line-table" /></td>
+                    <td>$16</td>
+                  </tr>
+                  <tr>
+                    <td>Blue Moon</td>
+                    <td><hr class="line-table" /></td>
+                    <td>$16</td>
+                  </tr>
+                  <tr>
+                    <td>Truffle Cake</td>
+                    <td><hr class="line-table" /></td>
+                    <td>$15</td>
+                  </tr>
+                  <tr>
+                    <td>Chocolate Cake</td>
+                    <td><hr class="line-table" /></td>
+                    <td>$18</td>
+                  </tr>
+                  <tr>
+                    <td>Poet’s Dream Cake</td>
+                    <td><hr class="line-table" /></td>
+                    <td>$16</td>
+                  </tr>
+                  <tr>
+                    <td>Pineapple Cake</td>
+                    <td><hr class="line-table" /></td>
+                    <td>$14</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-5">
+        <div class="our-contacts">
+          <h2 class="table-of">Our Contacts</h2>
+          <hr />
+          <div class="contacts">
+            <div class="text-info">
+              <p class="ti1">For all Library inquiries:</p>
+              <div class="phone-info">
+                <p class="ti2">Please call (617) 730-2370</p>
+                <p class="ti2">For TTY service, please call (617) 730-2370</p>
+                <p class="ti2">Putterham Library: (617) 730-2385</p>
+              </div>
+              <div class="senior-staff">
+                <p class="ti3">Senior Staff</p>
+                <p class="ti3"><span>Library Director:</span>Amanda Hirst</p>
+              </div>
+            </div>
+            <div class="map-info">
+              <img class="map" src="img/map.jpg" alt="map" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main-6">
+        <div class="library-cards">
+          <h2 class="table-of">Digital Library Cards</h2>
+          <hr />
+          <div class="search">
+            <div class="find-card">
+              <h3 class="find">Find your Library card</h3>
+              <div class="card-search">
+                <form action="">
+                  <p class="form-text">Brooklyn Public Library</p>
+                  <p>
+                    <label for="name"></label>
+                    <input
+                      type="text"
+                      name="name"
+                      id="name"
+                      placeholder="Reader's name "
+                    />
+                  </p>
+                  <p>
+                    <label for="number"></label>
+                    <input
+                      type="text"
+                      name="number"
+                      id="number"
+                      placeholder="Card number"
+                    />
+                  </p>
+                </form>
+              </div>
+              <button class="check">Check the card</button>
+            </div>
+            <div class="get-card">
+              <h3 class="reader-card">Get a reader card</h3>
+              <p class="reader-taxt">
+                You will be able to see a reader card after logging into account
+                or you can register a new account
+              </p>
+              <button>Sign Up</button>
+              <button>Log in</button>
+            </div>
           </div>
         </div>
       </div>
