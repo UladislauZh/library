@@ -143,6 +143,7 @@ hr {
   display: flex;
   justify-content: space-between;
   margin-left: 20px;
+  margin-bottom: 40px;
   box-sizing: border-box;
 }
 
@@ -161,6 +162,7 @@ label {
   height: 555px;
   position: relative;
   margin-bottom: 40px;
+  border: 1px solid var(--black);
 }
 
 .book-table {
