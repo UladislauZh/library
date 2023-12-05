@@ -8,6 +8,10 @@
   --inter1: 400 20px Inter;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0 auto;
 }
@@ -19,10 +23,11 @@ header {
 .header {
   margin: auto;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 1440px;
-  height: 90px;
+  min-height: 90px;
+  padding: 0 20px;
 }
 
 .header-text {
@@ -30,7 +35,6 @@ header {
   font: var(--forum1);
   margin: 0%;
   line-height: 50px;
-  margin-right: 450px;
 }
 
 .header-menu {
@@ -68,7 +72,7 @@ header {
   /* backdrop-filter: drop-shadow(4px 4px 10px blue); */
   margin: auto;
   width: 1440px;
-  height: 600px;
+  min-height: 600px;
   display: flex;
   align-items: center;
 }
@@ -82,7 +86,6 @@ header {
   padding: 35px 40px;
   margin: 0%;
   width: 520px;
-  height: 150px;
   text-transform: uppercase;
   justify-content: start;
   background-color: var(--black);
@@ -111,11 +114,13 @@ hr {
 .table-text {
   font: var(--inter1);
   line-height: 40px;
+  padding: 0 20px;
 }
 
 .images {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 20px;
 }
 
 .about-img {
@@ -151,15 +156,20 @@ label {
   font: var(--inter1);
 }
 
+input {
+  margin: 0 20px 0 0;
+}
+
 .books {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding: 0 20px;
 }
 
 .book {
   width: 550px;
-  height: 555px;
+  min-height: 555px;
   position: relative;
   margin-bottom: 40px;
   border: 1px solid var(--black);
@@ -194,7 +204,7 @@ label {
 
 .buy {
   width: 75px;
-  height: 30px;
+  min-height: 30px;
   border-radius: 2px;
   border-width: 1px;
   position: absolute;
@@ -224,11 +234,13 @@ label {
   line-height: 40px;
   letter-spacing: 2px;
   margin: 20px 0;
+  padding: 0 20px;
 }
 
 .big-container {
   display: flex;
   justify-content: space-between;
+  padding: 0 20px;
 }
 
 .menu-container1 {
@@ -352,11 +364,11 @@ td {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
+  padding: 0 20px;
 }
 
 .text-info {
   width: 500px;
-  height: 380px;
   text-align: left;
 }
 
@@ -400,11 +412,11 @@ td {
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
+  padding: 0 20px;
 }
 
 .find-card {
   width: 600px;
-  height: 450px;
 }
 
 .find {
@@ -414,7 +426,7 @@ td {
 }
 .card-bg {
   width: 600px;
-  height: 380px;
+  min-height: 380px;
   background-color: var(--white);
   border: 3px solid var(--beige);
   display: flex;
@@ -424,7 +436,7 @@ td {
 }
 .card-search {
   width: 580px;
-  height: 290px;
+  min-height: 290px;
   background-color: var(--beige);
   /* margin: 20px 20px 20px 20px; */
 }
@@ -435,7 +447,7 @@ td {
 }
 #name {
   width: 520px;
-  height: 66px;
+  min-height: 66px;
   font: var(--forum1);
   color: var(--grey);
   border-radius: 10px;
@@ -446,7 +458,7 @@ td {
 
 #number {
   width: 520px;
-  height: 66px;
+  min-height: 66px;
   font: var(--forum1);
   color: var(--grey);
   border-radius: 10px;
@@ -465,7 +477,6 @@ td {
 .get-card {
   text-align: right;
   width: 456px;
-  height: 253px;
 }
 
 .reader-card {
@@ -503,6 +514,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+  padding: 0 20px;
 }
 
 .footer-text1 {
@@ -534,6 +546,7 @@ footer {
   justify-content: space-between;
   color: var(--white);
   margin-top: 20px;
+  padding: 0 20px;
 }
 
 .footer-text3 {
