@@ -411,7 +411,7 @@ td {
 .search {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 60px;
+  margin-bottom: 40px;
   padding: 0 20px;
 }
 
